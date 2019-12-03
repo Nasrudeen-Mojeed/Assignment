@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<form>
+		<div class="card bg-dark text-white" style="width: 90%">
+			<img src="bg-head-02.jpg" class="card-img-top" alt="World" style="width: 100%">
+			<h2>Registration Form</h2>
+		<div class="card-body form-group">
+			<label for="Fname">FIRST NAME:</label>
+			<input type="text" name="Fname" class="form-control" id="Fname" placeholder="Enter First Name" required>
+			<div class="valid-feedback">Valid</div>
+			<div class="invalid-feedback">Please fill out this field</div>
+			<label for="Lname"> LAST NAME:</label>
+			<input type="text" name="Lname" id="lname" class="form-control" placeholder="Eneter Last Name" required>
+			<label for="DOB"> DATE OF BIRTH:</label>
+			<input type="date" name="DOB" id="DOB" class="form-control" placeholder="DATE OF BIRTH" required>
+			<label for="e-mail"> E-MAIL:</label>
+			<input type="email" name="e-mail" id="e-mail" class="form-control" placeholder="Enter e-Mail Address" required>
+			<label for="Pno.">PHONE NUMBER:</label>
+			<input type="number" name="Pno." id="Pno." class="form-control" placeholder="Eneter Phone Number" required>
+			<label for="Add">ADDRESS:</label>
+			<input type="address" name="Add" id="Add" class="form-control" placeholder="Enter Address" required>
+			<label for="city">CITY:</label>
+			<input type="city" name="city" id="city" class="form-control" placeholder="Enetr City" required>
+			<label for="Pin">PIN:</label>
+			<input type="number" name="pin" id="pin" class="form-control" placeholder="Enter your Pin" required>
+		<label for="uname">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+   
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember" required> I agree all statement in Term of service.
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+      </label>
+      <p>Have already an account? <a href="Login.html">Login here</a></p>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+			</div>
+
+		
+	</form>
+</div>
+</body>
+</html>
