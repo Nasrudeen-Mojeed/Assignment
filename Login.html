@@ -2,46 +2,57 @@
 <html>
 <head>
 	<title>Login</title>
-	  <meta charset="utf-8">
+		  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  	.input {
+  		  	width: 100%;
+ 			padding: 15px 20px;
+  			border-radius: 26px;
+  	}
+  </style>
 </head>
-<body class="bg-secondary">
-	<div class="container text-center">
-		<img src="slide4.jpg" class="mx-auto d-block rounded-circle mt-5 mb-5" width="20%" height="20%">
-		<!-- Begin Login Form -->
-		<form action="#">
-			<div accesskey>
-					<div class="container text-center text-white">
-						<p >Login to your account</p>
-						<div class="row">
-							<div class="col-sm-5"></div>
-							<div class="col-sm-7 text-left">
-								<input type="email" placeholder="e-Mail Address" style="width: 40%" class="form-control" arial-lebel="Enter your email for info">
-							</div>
-						<br><br>
-							<div class="col-sm-5 text-right"></div>
-							<div class="col-sm-7 text-left">
-								<input type="password" placeholder="Password" style="width: 40%" class="form-control" arial-lebel="Enter your email for info" >
-							</div>
-						</div>
-						<button class="btn btn-outline-primary btn-lg d-block mx-auto my-5" type="submit">
-							<span class="spinner-border spinner-border-sm"></span>
-						Login</button>
+<body>
+	<div class="container mt-5">
+		
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="image.png" width="80%">
+				</div>
+				<div class="col-lg-6 pt-5 bg-white">
+					<div class="row">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-8">
+						<h2 class="mt-5">Welcome back!</h2>
+						<form>
+							<div class="form-group">
+							 <input type="email" class="form-control input" id="email" placeholder="Email address" name="email" required>
+							  <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+<br>
+							 <input type="password" class="form-control input" id="pwd" placeholder="Enter password" name="pswd" required>
+							  <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+<br>
+							 <input class="form-check-input" type="checkbox" name="remember" required>Remember Password.
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Check this checkbox to continue.</div>
+<br>
+        
+        	 <button type="submit" class="btn btn-primary btn-block input">SIGN IN</button>
+        	
+        	 <p><a href="#">Forget password?</a></p>
+        	</div>
+						</form>
 					</div>
+						<div class="col-lg-2"></div>
 			</div>
-			<hr>
-		</form>
-		<!-- form End -->
-		<p>Don't have an account yet?
-			<a href="Register.html"> Create an account</a>
-		</p>
-		<p>Forget your password?</p>
-		<p>Click <a href="#here">here</a> to reset your password.</p>
-		<p>2019 &copy; Noble</p>
+		</div>
 	</div>
+</div>
 </body>
 </html>
